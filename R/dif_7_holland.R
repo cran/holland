@@ -34,7 +34,7 @@
 #' @references Eder, F. (1998). Differenziertheit der Interessen als Prädiktor der Interessenentwicklung. In J. Abel & C. Tarnai (Hrsg.), \emph{Pädagogisch-psychologische Interessenforschung in Studium und Beruf} (S. 63–77). Münster: Waxmann.
 #' @examples 
 #' # fictional interest profile:
-#' A <- c(70, 90, 120, 50, 60, 130)
+#' A <- c(70, 90, 120, 75, 100, 130)
 #' names(A) <- c("R","I","A","S","E","C")
 #' 
 #' # differentiation according to Frantz & Walsh (1972)
@@ -44,7 +44,7 @@
 #' ind <- c("DI1","DI2","DI3","DI4","DI5","DI6","DI7")
 #' sapply(ind, function(x)dif_7_holland(A,x),USE.NAMES = FALSE)
 ################################################################################
-# A <- c(70, 90, 120, 50, 60, 130); names(A) <- c("R","I","A","S","E","C")
+# A <- c(70, 90, 120, 75, 100, 130); names(A) <- c("R","I","A","S","E","C")
 dif_7_holland<-function(A, ind = c("DI1","DI2","DI3","DI4","DI5","DI6","DI7")){
   #func. by: jhheine@googlemail.com 
   mittel<-function(v){sum(v)/length(v)}

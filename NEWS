@@ -1,3 +1,11 @@
+Changes in version 0.1.1-1
+
+o added function sim_score_data()
+
+o added function plot_profile_holand()
+
+o fixed some character encoding mismatch with UTF-8 in 'Mplus_psyn.R'
+
 Changes in version 0.1.0-6
 
 o introduced the R package holland on CRAN in the first release version 0.1.0-6.

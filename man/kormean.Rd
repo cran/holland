@@ -13,7 +13,7 @@ kormean(x, y, xn = NA, yn = NA)
 
 \item{xn}{numeric value (optionally) the number of observations for correlation matrix given in x}
 
-\item{yn}{numeric value(optionally) the number of observations for correlation matrix given in y}
+\item{yn}{numeric value (optionally) the number of observations for correlation matrix given in y}
 }
 \value{
 the mean correlations of both matrices as a matrix object

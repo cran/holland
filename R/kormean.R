@@ -6,7 +6,7 @@
 #' @param x a correlation matrix
 #' @param y a correlation matrix
 #' @param xn numeric value (optionally) the number of observations for correlation matrix given in x
-#' @param yn numeric value(optionally) the number of observations for correlation matrix given in y
+#' @param yn numeric value (optionally) the number of observations for correlation matrix given in y
 #' @return the mean correlations of both matrices as a matrix object
 #' @examples 
 #' ## Correlation matrix for overall ASIT norm sample

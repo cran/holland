@@ -1,13 +1,13 @@
 #' @title Statistics for the Framework of Holland's Theory of Vocational Choice
 #' @name holland-package
 #' @docType package
-#' @importFrom graphics lines plot.new plot.window text
+#' @importFrom graphics lines plot.new plot.window text polygon segments par arrows
 #' @importFrom utils read.table write.table
 #' @importFrom MplusAutomation readModels
 #' @importFrom MplusAutomation extractModelParameters
 #' @importFrom MplusAutomation extractModelSummaries
 #' @importFrom MplusAutomation runModels
-# @importFrom mvtnorm rmvnorm
+#' @importFrom mvtnorm rmvnorm
 #' @description Offers a convenient way to compute parameters in the framework of vocational choice by J.L. Holland, (1997).
 #' @details  The core of J.L. Holland's model of vocational interest orientations consists in the assumption of a vocational personality, which can be described with six basic dimensions. Based on this basic assumption, different theorems and (derived) constructs are part of the theory of vocational interest orientations (see Holland, 1997).
 #' 

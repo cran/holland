@@ -123,7 +123,7 @@ Mplus_psyn <-function(N, Cor, M, mpluserg, name=NULL, dummyvorl = 1, verbose=FAL
   
   #####################################
   # DdD
-  D <- paste("dim", 1:M, sep = "", collapse = " ") # erzeugen des namensvectors f¸r die hineinzuprojezierenden Variablen
+  D <- paste("dim", 1:M, sep = "", collapse = " ") # erzeugen des namensvectors fuer die hineinzuprojezierenden Variablen
   dummy$V1 <- gsub(pattern = "DdD", D, x = dummy$V1, ignore.case = FALSE, perl = FALSE,
                    fixed = FALSE, useBytes = FALSE) # einsetzen der namen der hineinzuprojezierenden dimensionen in names are ...
   # UuU

@@ -38,7 +38,7 @@ Source: Bergmann, (1993, p. 267).
 }
 \examples{
 # fictional interest profile:
-A <- c(70, 90, 120, 50, 60, 130)
+A <- c(70, 90, 120, 75, 100, 130)
 names(A) <- c("R","I","A","S","E","C")
 
 # differentiation according to Frantz & Walsh (1972)

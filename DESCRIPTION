@@ -1,12 +1,12 @@
 Package: holland
 Type: Package
 Title: Statistics for Holland's Theory of Vocational Choice
-Version: 0.1.0-6
+Version: 0.1.1-1
 License: GPL-3
 LazyData: true
 Encoding: UTF-8
-Depends: R (>= 3.5.0), stats, utils, MplusAutomation
-Date: 2021-6-21
+Depends: R (>= 3.5.0), stats, utils, MplusAutomation, mvtnorm
+Date: 2021-7-13
 Authors@R: c(person("Joerg-Henrik", "Heine", role = c("aut","cre","com"),
     email = "jhheine@googlemail.com"),
     person("Florian","Hartmann", role=c("rev", "com"),
@@ -24,10 +24,10 @@ Description: Offers a convenient way to compute parameters
     Lutz, FL: Psychological Assessment.
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-06-21 11:27:06 UTC; jh
+Packaged: 2021-07-13 13:13:02 UTC; jh
 Author: Joerg-Henrik Heine [aut, cre, com],
   Florian Hartmann [rev, com],
   Bernhard Ertl [rev, com],
   Christian Tarnai [com, ths]
 Repository: CRAN
-Date/Publication: 2021-06-22 07:30:08 UTC
+Date/Publication: 2021-07-13 14:00:02 UTC
