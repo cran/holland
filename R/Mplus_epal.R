@@ -44,7 +44,7 @@ if(length(konstrukt) != M){print("number of dimension labels dose not match the 
 
 temp2 <- readModels(target = target, what="parameters", ...)$parameters # hier werden die Mplus Ergebnisse in R eingelesen.
 
-##### hier noch baustelle 10-06-2021 ggf doch $unstandardized ???
+##### hier noch baustelle 10-06-2021 ggf doch $unstandardized ??? --> fixed / confirmed 20.july.2021
 
 von<-which(temp2$stdyx.standardized$paramHeader=="FG.WITH" & temp2$stdyx.standardized$param=="DIM1") # startpunkt des auslesens
 bis<-which(temp2$stdyx.standardized$paramHeader=="DIM1.WITH" & temp2$stdyx.standardized$param=="FS")+((length(konstrukt)*3)-1) # endpunkt des auslesens
@@ -57,7 +57,7 @@ i3 <- sapply(paste("DIM",1:length(konstrukt),".WITH",sep = ""),function(x){which
 # bis<-which(temp2$stdyx.standardized$paramHeader=="DIM1.WITH" & temp2$stdyx.standardized$param=="FG")+((length(konstrukt)*3)-1) # endpunkt des auslesens
 #materg <-matrix(temp2$stdyx.standardized[von:bis,3], nrow=3, dimnames = list( c("Fg","Fc","Fs"),konstrukt))# aufbereiten des ergebnisses als matrix
 materg <-matrix(temp2$stdyx.standardized[c(i1,i2,i3),3], nrow=3, dimnames = list( c("Fg","Fc","Fs"),konstrukt))# aufbereiten des ergebnisses als matrix
-#### hier weitermachen
+#### hier weitermachen 20 july 2021 fehler in 59 nur mit Mplus version 7.4  mit Mplus version 8.4 klappt alles ...
 # temperg<-list()
 # for (i in 0:(M-1)){temperg[[paste("dim", (i+1), sep = "")]] <- temp2$stdyx.standardized[(von+(i*3)):((von+(i*3))+2),3]} # aufbereiten des ergebnisses als liste
 temperg1 <- apply(materg, 2, function(x){   ( (atan(x[3]/x[2])+pi ) * 180) /pi })

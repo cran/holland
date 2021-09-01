@@ -3,7 +3,7 @@
 \docType{data}
 \title{RIASEC correlations - female AIST norm sample}
 \description{
-a matrix of correlation coefficients based on \emph{N} = 1226 observations, obtaind from the german male norm sample of the AIST published in Bergman & Eder (2005).}
+a matrix of correlation coefficients based on \emph{n} = 1226 observations, obtaind from the german male norm sample of the AIST published in Bergman & Eder (2005).}
 \usage{
   data(AIST_2005_M_1226)
 }

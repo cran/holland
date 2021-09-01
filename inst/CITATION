@@ -3,7 +3,7 @@ note <- sprintf("R package version %s", meta$Version)
 
 bibentry(bibtype = "Manual",
          title = "{holland}: Statistics for Holland's Theory of Vocational Choice",
-         author = c(person("Joerg-Henrik", "Heine")),
+         author = c(person("Joerg-Henrik", "Heine"),person("Florian", "Hartmann")),
          year = year,
          note = note,
          url = "https://CRAN.R-project.org/package=holland")

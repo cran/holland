@@ -1,3 +1,9 @@
+Changes in version 0.1.2-1
+
+o added male and female correlation data from the AIST 3 by Bergman & Eder (2019)
+
+o Note: After further testing it appears that the functions Circ_emp(), Circ_pro(), Circ_test() and the 'internal' functions attached to them can lead to error messages when using Mplus versions <= 7.4 (thanks to Chet Robie for this finding). It is recommended to use Mplus versions >= 8.4.
+
 Changes in version 0.1.1-1
 
 o added function sim_score_data()

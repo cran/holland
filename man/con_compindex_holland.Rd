@@ -27,6 +27,6 @@ con_compindex_holland(a="RIA",b="RIA") # max. similarity
 \references{
 Holland, J.L. 1963. A theory of vocational choice. I. Vocational images and choice. \emph{Vocational Guidance Quarterly, 11}(4), 232–239.
 
-Wiggins, J. D. & Moody, A. (1981). A field-based comparison of four career-exploration approaches. \emph{Vocational Guidance Quarterly, 30}(1), 15–20. US: American Counseling Assn. https://doi.org/10.1002/j.2164-585X.1981.tb01071.x
+Wiggins, J.D.; Moody, A. (1981). Compatibility index description; Training and Associates: Dover, DE.
 }
 \keyword{congruence}

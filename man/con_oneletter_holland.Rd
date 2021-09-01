@@ -31,7 +31,7 @@ con_oneletter_holland(a="RIASEC",b="AIRCES",letter=2)
 con_oneletter_holland(a="RIASEC",b="AIRCES",letter=6)
 }
 \references{
-Holland, J.L. 1963. A theory of vocational choice. I. Vocational images and choice. \emph{Vocational Guidance Quarterly, 11}(4), 232–239.
+Holland, J.L. (1963). Explorations of a theory of vocational choice and achievement: II. A four-year prediction study. \emph{Psychological Reports, 12}, 547–594
 
 Bowles, S. M. & Tunick, R. H. (2008). \emph{Is Congruence Dead? An Examination of the Correlation Between Holland’s Congruence and Job Satisfaction Using Improved Methodology.} Morgantown, West Virginia: West Virginia University.
 }

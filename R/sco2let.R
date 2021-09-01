@@ -41,6 +41,7 @@ sco2let<-function(A, len=3){
   if(is.null(names(A))){names(A) <- c("R","I","A","S","E","C")}
   names(A) <- toupper(names(A))
   if( any(!names(A)%in%c("R","I","A","S","E","C") )) stop("unknown names in vector for Holland score profile")
+  if(length(unique(A)) < length(A)){warning("at least one tie in interest profile")}
   erg <- paste(names(sort(A,decreasing = TRUE)[1:len]),collapse = "")
   return (erg)
 }
