@@ -1,11 +1,15 @@
-Changes in version 0.1.2-1
+Changes in version 0.1.2-3
+o made some fixes in Rd files requested by CRAN
 
+Changes in version 0.1.2-2
+o made some corrections in the description files 
+
+Changes in version 0.1.2-1
 o added male and female correlation data from the AIST 3 by Bergman & Eder (2019)
 
 o Note: After further testing it appears that the functions Circ_emp(), Circ_pro(), Circ_test() and the 'internal' functions attached to them can lead to error messages when using Mplus versions <= 7.4 (thanks to Chet Robie for this finding). It is recommended to use Mplus versions >= 8.4.
 
 Changes in version 0.1.1-1
-
 o added function sim_score_data()
 
 o added function plot_profile_holand()
@@ -13,7 +17,5 @@ o added function plot_profile_holand()
 o fixed some character encoding mismatch with UTF-8 in 'Mplus_psyn.R'
 
 Changes in version 0.1.0-6
-
 o introduced the R package holland on CRAN in the first release version 0.1.0-6.
-
 

@@ -24,7 +24,7 @@ sim_score_data(
 
 \item{data.frame}{logical whether to return a \code{data.frame} or a \code{matrix}}
 
-\item{...}{additional parameters passed through to \code{\link{rmvnorm}}.}
+\item{...}{additional parameters passed through to \code{\link[mvtnorm]{rmvnorm}}.}
 }
 \value{
 a \code{data.frame} with simulated raw scores.

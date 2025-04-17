@@ -1,6 +1,6 @@
 #' @title Statistics for the Framework of Holland's Theory of Vocational Choice
-#' @name holland-package
-#' @docType package
+#' @name holland_PACKAGE
+#' @aliases holland-package
 #' @importFrom graphics lines plot.new plot.window text polygon segments par arrows
 #' @importFrom utils read.table write.table
 #' @importFrom MplusAutomation readModels
@@ -17,7 +17,7 @@
 #' 
 #' The second function area is related to the concept of \emph{differentiation}, which is currently only covered with the function  \code{\link{dif_7_holland}} to compute seven different indices of differentiation.
 #' 
-#' The last function area addresses the so-called \emph{calculus} hypothesis, according to which the six interest orientations are arranged in the form of a hexagonal structure. The package 'holland' offers, among other functions, three (wrapper) functions, which are directly addressed to the user. Within the calculus hypothesis the arrangement of empirical data can be determined (cf. function \code{\link{Circ_emp}}) and their fit to the hexagonal structure can be determined (cf. function \code{\link{Circ_test}}). Furthermore, other construct domains (e.g., big-five personality) with their dimensions can be projected into the hexagonal structure (cf. Function \code{\link{Circ_pro}}). These three functions are based on the method of structural equation modeling proposed by Nagy et al. (2009), which was implemented as Mplus syntax. The application of the three functions therefore requires an installation of the commercial software Mplus (cf. also \code{\link{MplusAutomation}}).
+#' The last function area addresses the so-called \emph{calculus} hypothesis, according to which the six interest orientations are arranged in the form of a hexagonal structure. The package 'holland' offers, among other functions, three (wrapper) functions, which are directly addressed to the user. Within the calculus hypothesis the arrangement of empirical data can be determined (cf. function \code{\link{Circ_emp}}) and their fit to the hexagonal structure can be determined (cf. function \code{\link{Circ_test}}). Furthermore, other construct domains (e.g., big-five personality) with their dimensions can be projected into the hexagonal structure (cf. Function \code{\link{Circ_pro}}). These three functions are based on the method of structural equation modeling proposed by Nagy et al. (2009), which was implemented as Mplus syntax. The application of the three functions therefore requires an installation of the commercial software Mplus (cf. also \code{\link[MplusAutomation]{MplusAutomation}}).
 #'   
 #'     
 #'         

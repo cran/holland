@@ -2,6 +2,7 @@
 # Eder, F. (1998). Differenziertheit der Interessen als Prädiktor der Interessenentwicklung. In J. Abel & C. Tarnai (Hrsg.), Pädagogisch-psychologische Interessenforschung in Studium und Beruf (S. 63–77). Münster: Waxmann.
 # func. by: jhheine@googlemail.com 
 # 'x' ist ein profil
+# cos(rad(30)) = 0.8660254; sin(rad(30)) = 0.5
 
 i.gesvector <- function(x){
   Koord1<-(c(-0.5,0.5,1,0.5,-0.5,-1)*x)

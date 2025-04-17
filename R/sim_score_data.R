@@ -8,7 +8,7 @@
 #' @param min.score numeric (possibly vector with max length == ncol(cormat) -- will be recycled) with numeric value(s) defining the minimum raw scores per dimension
 #' @param max.score numeric (possibly vector with max length == ncol(cormat) -- will be recycled) with numeric value(s) defining the maximum raw scores per dimension.
 #' @param data.frame logical whether to return a \code{data.frame} or a \code{matrix}
-#' @param ... additional parameters passed through to \code{\link{rmvnorm}}.
+#' @param ... additional parameters passed through to \code{\link[mvtnorm]{rmvnorm}}.
 #' @return a \code{data.frame} with simulated raw scores.
 #' @examples
 #' # get an RIASEC correlation matrix
